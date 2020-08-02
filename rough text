@@ -1,0 +1,12 @@
+This is a tutorial series for the elixir programming language. Elixir is a language which addresses the most prominent problems today which are scalability and concurrency. In addition to fixing these issues, It also introduces a new programming paradigm that brings about a change in the idea of programming and also brings up the powerful but long lost ErlangVM. This series will start from the very basics and will go all the way to creating complex applications.
+
+<iframe src='https://www.youtube.com/embed/7KXCgomynGs'
+  frameborder='0'
+  allow='autoplay; encrypted-media'
+  allowfullscreen="allowfullscreen"
+  mozallowfullscreen="mozallowfullscreen"
+  msallowfullscreen="msallowfullscreen"
+  oallowfullscreen="oallowfullscreen"
+  webkitallowfullscreen="webkitallowfullscreen"
+  title='video'
+  />
