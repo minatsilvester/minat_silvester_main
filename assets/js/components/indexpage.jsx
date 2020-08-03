@@ -10,7 +10,7 @@ import { Container, Jumbotron } from 'react-bootstrap';
 class IndexPage extends React.Component{
 
   componentDidMount(){
-    setDocumentTitle('Minat Silvester')
+    setDocumentTitle('Minat Silvester Here')
   }
 
   render(){
