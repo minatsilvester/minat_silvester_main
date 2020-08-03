@@ -77,11 +77,11 @@ class NewMessage extends React.Component{
 
           <Form.Group controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" ref="name" placeholder="Enter name" required={true} />
+            <Form.Control type="text" ref="name" placeholder="Enter your name" required={true} />
           </Form.Group>
 
           <Form.Group controlId="formBasicSubject">
-            <Form.Label>Subject</Form.Label>
+            <Form.Label>Enter on what subject Subject</Form.Label>
             <Form.Control as="textarea" ref="subject" placeholder="Enter the subject" required={true} />
           </Form.Group>
 
