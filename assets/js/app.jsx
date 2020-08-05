@@ -20,6 +20,7 @@ import NavigationBar from './components/navbar';
 import configureStore, { history } from './store';
 import AdminPage from './components/admin_page';
 import AddBlog from './forms/add_blog';
+import ScrollToTop from './restoration'
 import Blogs from './components/blogs';
 import Categories from './components/categories';
 import NewMessage from './forms/message'
@@ -36,6 +37,7 @@ class MainApp extends React.Component{
       <>
         <Provider store={configureStore()}>
           <ConnectedRouter history={history}>
+            <ScrollToTop />
             <NavigationBar />
             <Route exact path="/" component={IndexPage} />
             <Route exact path="/sign_in" component={SignIn} />

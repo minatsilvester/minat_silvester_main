@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Actions from '../actions/category';
 import ReactLoading from 'react-loading';
+import { setDocumentTitle } from '../utils';
 
 class Categories extends React.Component{
   constructor(props){
@@ -14,6 +15,10 @@ class Categories extends React.Component{
   getCategories(){
     const { dispatch } = this.props;
     dispatch(Actions.getAllCategories())
+  }
+
+  componentDidMount(){
+    setDocumentTitle("Minat SIlvester's Playlists")
   }
 
 

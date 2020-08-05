@@ -3,12 +3,17 @@ import { connect } from 'react-redux';
 import Actions from '../actions/blog';
 import { Link } from 'react-router-dom';
 import ReactLoading from 'react-loading';
+import { setDocumentTitle } from '../utils';
 
 class Blogs extends React.Component{
   constructor(props){
     super(props);
     this.getBlogs = this.getBlogs.bind(this);
     this.getBlogs();
+  }
+
+  componentDidMount(){
+    setDocumentTitle("Minat Silvester's Blogs")
   }
 
   getBlogs(){
